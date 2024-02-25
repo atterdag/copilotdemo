@@ -15,7 +15,6 @@ def fizzbuzz
 
 Add code to run the function
 
-```python
 ## Generative example
 
 ### Setup python project with virtualenv
