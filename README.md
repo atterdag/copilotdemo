@@ -84,10 +84,10 @@ Save the following code to `compose.yml`:
 ![](images/InsertToNewFile.png)
 
 
-Let's refactor compose file to listen to port 8888, but first, open the `compose.yml` file, select all, and bringing up the Copilot function in the editor by pressing `CTRL-i` and type:
+Let's change compose file to listen to port 8888, but first, open the `compose.yml` file, select all, and bringing up the Copilot function in the editor by pressing `CTRL-i` and type:
 
 ```
-can you refactor this compose file to listen to port 8888
+can you change this compose file to listen to port 8888
 ```
 
 Accept the change and save the file.
