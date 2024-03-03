@@ -23,7 +23,7 @@ def fizzbuzz
 
 The [GitHub Copilot VSCode extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) will capture the open files in VSCode in a Context which is transmitted to the Copilot Service.
 
-<img src="images/fuzzbuzz_flow_diagram.png" width="1000">
+<img src="images/CopilotFlowDiagram.png" width="1000">
 
 The Copilot Service will then match the Context with a Code Reference Index created by the [OpenAI Cordex model](https://openai.com/blog/openai-codex), delete the Context, and send back a suggestion to the open file in VSCode. So wait a moment for the suggestion to appear and press `tab` to accept the suggestion.
 
@@ -36,11 +36,11 @@ Add code to run the function in a loop from 1 to 100
 
 Copilot will suggest the following code a snippet to run the function in a loop. Press `tab` to accept the suggestion.
 
-<img src="images/fizzbuzz_imperfect_suggestion.png" width="1000">
+<img src="images/FizzbuzzImperfectSuggestion.png" width="1000">
 
 Most likely the code will not be perfect, and you have to fix things like identation, missing colons, etc. But it is a good starting point, and cleaning up the code shouldn't take more than a few seconds.
 
-<img src="images/fizzbuzz_complete.png" width="1000">
+<img src="images/FizzbuzzComplete.png" width="1000">
 
 But if you are really lazy you can just select all text, and bring up the Copilot function in the editor by pressing `CTRL-i` and type:
 
